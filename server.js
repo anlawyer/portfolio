@@ -10,7 +10,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.static('public'));
 
-// require('./routes/api-routes.js')(app);
+app.set('view engine', 'ejs');
+
+require('./routes/routes.js')(app);
 
 app.listen(PORT, function () {
   console.log('App listening on PORT: ' + PORT);
