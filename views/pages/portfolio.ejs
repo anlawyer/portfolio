@@ -8,70 +8,74 @@
     <% include ../partials/header %>
     <div class="hero-body">
       <div class="container">
-        <!-- <h1>Featured Projects</h1> -->
         <div class="columns is-multiline">
           <!-- gotta go -->
-          <div class="column is-2 is-offset-1">
+          <div class="column is-2">
             <figure class="image">
               <img src="../../images/GottaGo-landing.png">
             </figure>
-            <!-- <figure class="image">
-              <img src="./images/GottaGo-add.png">
-            </figure>
-            <figure class="image is-9by16">
-              <img src="./images/GottaGo-tiles.png">
-            </figure> -->
           </div>
-          <div class="column is-6 is-offset-2">
+          <div class="column is-2">
+            <figure class="image">
+              <img src="../../images/GottaGo-tiles.png">
+            </figure>
+          </div>
+          <div class="column is-6 is-offset-1">
             <h3 class="title is-3">Gotta Go!</h3>
-            <p>Gotta Go is a crowdsourced application made for people who are always on the road.
-                The app provides users with location and information about nearby
-                bathrooms that other users have input.</p>
-              <br>
-              <p>
-                My team and I used Node.js, Express.js, MySQL and the Sequelize ORM
-                for the backend,and Bulma and EJS for the frontend.
+            <p>
+              A crowdsourced application that provides drivers with location and
+              information about nearby bathrooms that other users have input.
+              I created user stories for each page in the app, and designed the
+              wireframe and interactions for each story. I helped set up and maintain
+              the MySQL database, and wrote routes for the flow of data from the
+              frontend to the backend of application, including user data and location data.
+              This is a full stack application using Node.js, Express.js, MySQL,
+              Sequelize, Bulma, EJS, HTML, JavaScript and jQuery.
             </p>
             <br>
             <a href="https://murmuring-basin-97486.herokuapp.com">Live app</a> |
             <a href="https://github.com/anlawyer/project2">Source code</a>
           </div>
-          <!-- Eat da Burger -->
-          <div class="column is-4 is-offset-1">
+          <!-- NYT Search -->
+          <div class="column is-4">
             <figure class="image">
-              <img src="../../images/EatDaBurger.png">
+              <img src="../../images/nyt-search.gif">
             </figure>
           </div>
-          <div class="column is-6">
-            <h3 class="title is-3">Eat Da Burger!</h3>
-            <p>Eat Da Burger is a full-stack application using Node.js, Express.js,
-              MySQL and Flexbox. Users can add a burger to the database using the form
-              provided, then click a button to "devour" the burger, which is then moved
-              from the uneaten list to the eaten list.
+          <div class="column is-6 is-offset-1">
+            <h3 class="title is-3">NYT Article Search</h3>
+            <p>An application that searches for articles from NYT.
+              Users can search for a topic, and can save and delete articles.
+              I used Axios for in-app routing and for calling the NYT API to search
+              for articles, MongoDB and Mongoose for storage/deletion of saved articles,
+              and React and Bootstrap for the front-end. This is a MERN app.
             </p>
             <br>
-            <a href="https://immense-wildwood-17780.herokuapp.com/">Live app</a> |
-            <a href="https://github.com/anlawyer/burger">Source code</a>
+            <a href="https://stark-caverns-91687.herokuapp.com/">Live app</a> |
+            <a href="https://github.com/anlawyer/NYT-Article-Search">Source code</a>
           </div>
-          <!-- Friend finder -->
-          <div class="column is-4 is-offset-1">
+          <!-- FastCo scraper -->
+          <div class="column is-4">
             <figure class="image">
-              <img src="../../images/FriendFinder-questions.png">
+              <img src="../../images/fc-screencast.gif">
             </figure>
           </div>
-          <div class="column is-6">
-            <h3 class="title is-3">Friend Finder</h3>
-            <p>Friend Finder is a full-stack application using Node.js, Express.js
-              and Bootstrap. Users take a survey and are matched to a user who has
-              also taken the survey through code that finds the least amount of
-              difference between their answers.
+          <div class="column is-6 is-offset-1">
+            <h3 class="title is-3">Fast Co Article Scraper</h3>
+            <p>
+              An application that scrapes articles from fastcompany.com and allows
+              users to save and comment on them. Used Cheerio and Axios to scrape
+              the Fast Company website. Used MongoDB and Mongoose to store all scraped
+              articles, saved articles, and comments. Used Bulma and Handlebars.js
+              for frontend interaction. A full stack application using Node.js,
+              Express.js, MongoDB, Bulma, Handlebars.js, JavaScript, Cheerio and Axios.
             </p>
             <br>
             <a href="https://lit-depths-81807.herokuapp.com/">Live app</a> |
             <a href="https://github.com/anlawyer/FriendFinder">Source code</a>
           </div>
           <!-- Bamazon -->
-          <div class="column is-2 is-offset-1">
+          <!-- <div class="column is-2 is-offset-1">
             <figure class="image">
               <img src="../../images/Bamazon.png">
             </figure>
@@ -86,9 +90,9 @@
             </p>
             <br>
             <a href="https://github.com/anlawyer/bamazon/">Source code</a>
-          </div>
+          </div> -->
           <!-- GifTastic -->
-          <div class="column is-4 is-offset-1">
+          <!-- <div class="column is-4 is-offset-1">
             <figure class="image">
               <img src="../../images/GifTastic-gifs.png">
             </figure>
@@ -102,11 +106,13 @@
             <br>
             <a href="https://anlawyer.github.io/GifTastic/">Live app</a> |
             <a href="https://github.com/anlawyer/GifTastic">Source code</a>
+          </div> -->
+          <!-- closing columns -->
           </div>
-          </div>
+        <!-- closing container -->
         </div>
+      <!-- closing hero-body -->
       </div>
-    </div>
     <% include ../partials/footer %>
   </section>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
