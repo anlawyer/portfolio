@@ -6,4 +6,8 @@ module.exports = function (app) {
   app.get('/portfolio', function (req, res) {
     res.render('pages/portfolio');
   });
+
+  app.get('/contact', function (req, res) {
+    res.render('pages/contact');
+  });
 };
