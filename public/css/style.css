@@ -1,0 +1,10 @@
+html,body {
+  font-family: 'Lato', sans-serif;
+}
+.footer {
+  flex-shrink: 0;
+   padding: 20px;
+}
+.column {
+  padding-bottom: 35px
+}
