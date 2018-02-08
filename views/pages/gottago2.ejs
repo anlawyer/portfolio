@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/head %>
+</head>
+<body>
+  <section class="hero is-fullheight is-default is-bold">
+    <% include ../partials/header %>
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-12">
+            <div class="title is-3">
+              Crowdsourced restroom locations
+            </div>
+          </div>
+          <div class="column is-4 is-offset-4">
+            <figure class="image">
+              <img src="../../images/gg2.gif">
+            </figure>
+          </div>
+          <div class="column is-8 is-offset-2">
+            <p>
+              This application is a React-based mobile web application, a refactor
+              of the previous group project by the same name. Its purpose
+              is to crowdsource local restrooms for frequent drivers and busy people
+              on the go. Users can see local restrooms, signed in members can add comments
+              and new restrooms they find. This application was built using React
+              and MongoDB/mLab, as well as Node.js and Express. The front end was
+              constructed using Redux, Bulma, HTML/JSX/CSS, and Bloomer, a library of
+              stateless React components. It utilizes API calls to the MongoDB/mLab
+              database to post and retrieve restrooms and comments. Redux is used for
+              loading the Google Map according to the user's location. By making calls
+              to the Google Maps API, users can also get directions to their restroom
+              of choice. The application is still in development.
+            </p>
+            <br />
+            <p>
+              I created this wireframe, layout, component structure, and data flow
+              with backend routes. All together, it is defined as an "interaction flow."
+              This was helpful for my team as a sort of "health check"
+              as we progressed through the project. We were able to check back on this
+              structure whenever we were a little stuck to remember how things should
+              be arranged.
+            </p>
+          </div>
+          <div class="column is-8 is-offset-2">
+            <figure class="image">
+              <img src="../../images/gg2-components.png">
+            </figure>
+          </div>
+          <!-- closing columns -->
+          </div>
+        <!-- closing container -->
+        </div>
+      <!-- closing hero-body -->
+      </div>
+    <% include ../partials/footer %>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script async type="text/javascript" src="../../js/bulma.js"></script>
+</body>
+</html>
