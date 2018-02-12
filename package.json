@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/anlawyer/portfolio/issues"
   },
-  "homepage": "https://github.com/anlawyer/portfolio#readme",
+  "homepage": "http://alisoncodes.com",
   "dependencies": {
     "body-parser": "^1.18.2",
     "bulma-start": "0.0.2",
