@@ -5,10 +5,14 @@ html,body {
   flex-shrink: 0;
   padding: 20px;
 }
-.column {
+/* .column {
   padding-bottom: 35px;
-}
+} */
 
 a:hover {
   color: #fbca04;
+}
+
+.left-wrapper {
+  border-right: solid;
 }

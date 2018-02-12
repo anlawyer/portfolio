@@ -14,4 +14,8 @@ module.exports = function (app) {
   app.get('/gotta-go-2', function (req, res) {
     res.render('pages/gottago2');
   });
+
+  app.get('/timeline', function (req, res) {
+    res.render('pages/timeline');
+  });
 };
