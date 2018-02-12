@@ -11,6 +11,10 @@ module.exports = function (app) {
     res.render('pages/contact');
   });
 
+  app.get('/gotta-go-1', function (req, res) {
+    res.render('pages/gottago1');
+  });
+
   app.get('/gotta-go-2', function (req, res) {
     res.render('pages/gottago2');
   });
