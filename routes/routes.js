@@ -15,6 +15,14 @@ module.exports = function (app) {
     res.render('pages/gottago2');
   });
 
+  app.get('/nyt', function (req, res) {
+    res.render('pages/nyt');
+  });
+
+  app.get('/fastco', function (req, res) {
+    res.render('pages/fastco');
+  });
+
   app.get('/timeline', function (req, res) {
     res.render('pages/timeline');
   });
