@@ -11,15 +11,15 @@ module.exports = function (app) {
     res.render('pages/contact');
   });
 
-  app.get('/gotta-go-1', function (req, res) {
-    res.render('pages/gottago1');
-  });
-
-  app.get('/gotta-go-2', function (req, res) {
+  app.get('/gottago', function (req, res) {
     res.render('pages/gottago2');
   });
 
   app.get('/timeline', function (req, res) {
     res.render('pages/timeline');
+  });
+
+  app.get('/games', function (req, res) {
+    res.render('pages/games');
   });
 };
