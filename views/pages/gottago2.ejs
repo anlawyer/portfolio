@@ -9,12 +9,37 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns is-multiline">
-          <div class="column is-12">
+          <div class="column is-3 is-offset-5">
             <div class="title is-3">
-              Crowdsourced restroom locations
+              Gotta Go!
             </div>
           </div>
-          <div class="column is-4 is-offset-1">
+          <div class="column is-8 is-offset-2">
+            <div class="title is-5">
+              The Problem:
+            </div>
+            <div class="">
+              <p>
+                Everyone has "gotta go" at one point or another. Drivers, especially
+                those providing rides for others through ride-sharing apps, can end
+                up in a place they don't always recognize. We found a lack of information
+                online about the locations of bathrooms, even in large cities like San Francisco.
+              </p>
+            </div>
+            <br />
+            <div class="title is-5">
+              The Solution:
+            </div>
+            <div class="">
+              <p>
+                Gotta Go aims to solve that problem by crowdsourcing information about
+                restrooms and pit stops by people who are actually using them.
+                Our app allows users to see all the locations of restrooms input by
+                other users, and allows them to add new locations themselves.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="column is-4 is-offset-1">
             <figure class="image">
               <img src="../../images/GottaGo-add.png">
             </figure>
@@ -23,46 +48,28 @@
             <figure class="image">
               <img src="../../images/GottaGo-tiles.png">
             </figure>
-          </div>
+          </div> -->
           <div class="column is-8 is-offset-2">
             <p>
-              A crowdsourced application that provides drivers with location and
-              information about nearby bathrooms that other users have input. This
-              app was created as a group project for the UC Berkeley Extension
-              Coding Bootcamp.
+              We originally created the app using HTML with EJS templating, Bulma for
+              styling, and MySQL to store information including location, comments,
+              and user login information.
             </p>
             <br />
             <p>
-              My role in the group was to create user stories for
-              each page in the app, and design the wireframe and interactions for
-              each story. I helped set up and maintain the MySQL database, and
-              wrote routes for the flow of data from the frontend to the backend
-              of application, including user data and location data.
-              This is a full stack application using Node.js, Express.js, MySQL,
-              Sequelize, Bulma, EJS, HTML, JavaScript and jQuery.
+              After some time, we decided to refactor our codebase, using React for
+              the frontend, and MongoDB for less restrictive data handling.
             </p>
           </div>
-          <div class="column is-4 is-offset-4">
+          <!-- <div class="column is-4 is-offset-4">
             <figure class="image">
               <img src="../../images/gg2.gif">
             </figure>
-          </div>
+          </div> -->
           <div class="column is-8 is-offset-2">
-            <p>
-              This application is a React-based mobile web application, a refactor
-              of the previous group project by the same name. Its purpose
-              is to crowdsource local restrooms for frequent drivers and busy people
-              on the go. Users can see local restrooms, signed in members can add comments
-              and new restrooms they find. This application was built using React
-              and MongoDB/mLab, as well as Node.js and Express. The front end was
-              constructed using Redux, Bulma, HTML/JSX/CSS, and Bloomer, a library of
-              stateless React components. It utilizes API calls to the MongoDB/mLab
-              database to post and retrieve restrooms and comments. Redux is used for
-              loading the Google Map according to the user's location. By making calls
-              to the Google Maps API, users can also get directions to their restroom
-              of choice. The application is still in development.
-            </p>
-            <br />
+            <div class="title is-5">
+              Process:
+            </div>
             <p>
               I created this wireframe, layout, component structure, and data flow
               with backend routes. All together, it is defined as an "interaction flow."
@@ -77,34 +84,36 @@
               <img src="../../images/gg2-components.png">
             </figure>
           </div>
-          <div class="column is-12 level">
-            <div class="level-left">
-              <div class="level-item">
-                <a class="button" href="/games">
-                  <span class="icon">
-                    <i class="fa fa-2x fa-angle-left"></i>
-                  </span>
-                  <span>Games</span>
-                </a>
+          <div class="column is-12">
+            <div class="level is-mobile">
+              <div class="level-left">
+                <div class="level-item">
+                  <a class="button" href="/games">
+                    <span class="icon">
+                      <i class="fa fa-2x fa-angle-left"></i>
+                    </span>
+                    <span>Games</span>
+                  </a>
+                </div>
               </div>
-            </div>
-            <div class="level-right">
-              <div class="level-item">
-                <a class="button" href="/nyt">
-                  <span>NYT Article Search</span>
-                  <span class="icon">
-                    <i class="fa fa-2x fa-angle-right"></i>
-                  </span>
-                </a>
+              <div class="level-right">
+                <div class="level-item">
+                  <a class="button" href="/nyt">
+                    <span>NYT Article Search</span>
+                    <span class="icon">
+                      <i class="fa fa-2x fa-angle-right"></i>
+                    </span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <!-- closing columns -->
-          </div>
-        <!-- closing container -->
+        <!-- closing columns -->
         </div>
-      <!-- closing hero-body -->
+      <!-- closing container -->
       </div>
+    <!-- closing hero-body -->
+    </div>
     <% include ../partials/footer %>
   </section>
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
