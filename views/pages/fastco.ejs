@@ -9,30 +9,36 @@
     <div class="hero-body">
       <div class="container">
         <div class="columns is-multiline">
-          <div class="column is-12">
+          <div class="column is-5 is-offset-4">
             <div class="title is-3">
               Fast Company Article Scraper
             </div>
           </div>
           <div class="column is-8 is-offset-2">
+            <p>
+              This is an application that scrapes articles from fastcompany.com
+              and allows users to save and comment on them.
+              <br />
+              <br />
+              When the site is opened, Cheerio scrapes the Fast Company website
+              and displays the new articles on the landing page. Another scrape
+              can be triggered at any time by clicking the "Get news from Fast Co" in
+              the upper left-hand corner. Users can then save the articles they like,
+              and access them on the "saved" page. They can comment on each saved article,
+              delete comments and unsave articles as well.
+              <br />
+              <br />
+              All the articles and comments are stored in a MongoDB database using
+              the Mongoose ORM. The frontend is built with Bulma, a CSS framework based
+              on Flexbox, and Handlebars.js, an HTML templating engine. The backend is
+              built with Node.js/Express.js, and features Axios for in-app routing and
+              the scraping call.
+            </p>
+          </div>
+          <div class="column is-8 is-offset-2">
             <figure class="image">
               <img src="../../images/fc-screencast.gif">
             </figure>
-          </div>
-          <div class="column is-8 is-offset-2">
-            <p>
-              An application that scrapes articles from fastcompany.com and allows users to save and comment on them.
-              Used Cheerio to scrape the Fast Company website. Used Node.js, Axios for in-app routing and API creation.
-              Used MongoDB and Mongoose with CRUD operations to store scraped and saved articles, and comments.
-              Used Handlebars.js for HTML templating and Bulma for styling. Used Express.js for server creation.
-
-              An application that scrapes articles from fastcompany.com and allows
-              users to save and comment on them. I used Cheerio and Axios to scrape
-              the Fast Company website, and MongoDB/Mongoose to store all scraped
-              articles, saved articles, and comments. I used Bulma and Handlebars.js
-              for front-end. A full stack application using Node.js, Express.js,
-              MongoDB, Bulma, Handlebars.js, JavaScript, Cheerio and Axios.
-            </p>
           </div>
           <div class="column is-12">
             <div class="level is-mobile">
