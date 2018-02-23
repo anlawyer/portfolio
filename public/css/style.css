@@ -2,12 +2,17 @@ html,body {
   font-family: 'Lato', sans-serif;
 }
 
+body {
+  /* background-color: gray;
+  background-position:  */
+}
+
 .footer {
   flex-shrink: 0;
   padding: 20px;
 }
 
-a:hover {
+a:hover, button:hover {
   color: #fbca04;
 }
 
