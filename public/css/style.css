@@ -8,7 +8,6 @@ html,body {
 
 .bg-img {
   background-image: url(../images/big-bg.png);
-  /* margin-left: -100px; */
   background-position: -70px;
   background-repeat:  no-repeat;
   background-attachment: fixed;
@@ -21,9 +20,18 @@ html,body {
       height: auto;
    }
 
-.footer {
+.home-foot {
+ flex-shrink: 0;
+ padding: 20px;
+}
+
+.foot {
   flex-shrink: 0;
   padding: 20px;
+  background-image: url(../images/bottom-bg.png);
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
 }
 
 a:hover, button:hover {
