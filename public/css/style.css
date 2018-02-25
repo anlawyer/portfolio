@@ -1,11 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 html,body {
   font-family: 'Lato', sans-serif;
 }
 
-body {
-  /* background-color: gray;
-  background-position:  */
+.bg-img {
+  background-image: url(../images/big-bg.png);
+  /* margin-left: -100px; */
+  background-position: -70px;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
 }
+
+.img-responsive {
+      display: block;
+      max-width: 100%;
+      height: auto;
+   }
 
 .footer {
   flex-shrink: 0;
@@ -14,6 +28,14 @@ body {
 
 a:hover, button:hover {
   color: #fbca04;
+}
+
+ a:hover figure {
+  color: #fbca04;
+}
+
+.left-nav {
+  position: fixed;
 }
 
 .left-wrapper {
